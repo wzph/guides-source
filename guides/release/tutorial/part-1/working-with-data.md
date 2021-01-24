@@ -59,7 +59,7 @@ The model hook is responsible for fetching and preparing any data that you need 
 
 Usually, this is where we'd fetch data from a server. Since fetching data is usually an asynchronous operation, the model hook is marked as `async`. This gives us the option of using the `await` keyword to wait for the data fetching operations to finish.
 
-We'll get to that bit later on. At the moment, we are just returning the same hard-coding model data, extracted from the `<Rental>` component, but in a _[JavaScript object](https://developer.mozilla.org/docs/Learn/JavaScript/Objects/Basics)_ format.
+We'll get to that bit later on. At the moment, we are just returning the same hard-coded model data, extracted from the `<Rental>` component, but in a _[JavaScript object](https://developer.mozilla.org/docs/Learn/JavaScript/Objects/Basics)_ format.
 
 ## Accessing Route Models from Templates
 
